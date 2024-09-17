@@ -1,0 +1,80 @@
+body{
+    background-image: url("patate.png");
+}
+.corps{
+    height: 1500px;
+    width: 70%;
+    margin: auto;
+    margin-top: -21px; /*pour que le div touche le haut de la page*/
+    margin-bottom: -21px;
+    background-color: rgb(247, 245, 104); /*131, 255, 74*/  /*145, 255, 120*/
+    border: solid 1px white;
+}
+
+.logo{
+    text-align: center;
+    color: rgb(161, 98, 31); /*201, 145, 22*/
+    width: 70%;
+    height: 150px;
+    margin: auto;
+    margin-top: 80px;
+}
+
+.titre{
+    font-size: 80px;
+    margin-top: inherit;
+}
+
+.menu{
+    font-family: fantasy;
+    font-size: 23px;
+    text-align: center;
+    width: 100%;
+    height: 80px;
+    margin: auto;
+    margin-top: 30px;
+    /*background-color: rgb(62, 199, 16);*/
+}
+
+.tabmen{
+    width: 100%;
+}
+
+.celmen{
+    border: solid 2px rgb(163, 55, 20);
+    border-radius: 15px;
+    width: 10%;
+    height: 70px;
+    background-color: rgb(62, 199, 16);
+}
+
+a, a:hover{
+    text-decoration: none;
+    color: black;
+}
+
+p{
+    margin-left: 60px;
+    margin-right: 60px;
+    font-family: fantasy;
+    font-size: 19px;
+    text-align: justify;
+    line-height: 24px;
+}
+
+h1, h2{
+    text-align: center;
+    font-family: fantasy;
+    font-weight: normal;
+}
+
+h1{
+    font-size: 40px;
+    margin-top: 40px;
+}
+
+h2{
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
